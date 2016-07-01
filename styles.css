@@ -1,0 +1,214 @@
+section{
+  padding: 2%;
+}
+
+h1{
+  color: white;
+  padding: 3%;
+  line-height: 2.2em;
+  font-size: 7em;
+  font-family: 'El Messiri', sans-serif;
+}
+
+button{
+  display: block;
+}
+ul, li, i{
+  margin: 1em;
+  display: inline-block;
+}
+i{
+  color: #2ecc71;
+}
+#absolute-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: auto;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+
+.fixed-dimensions{
+  width: 80%;
+  height: auto;
+}
+
+.btn{
+  display: inline-block;
+  width: 40%;
+  margin-right: 5%;
+  margin-left: 4.5%;
+  font-size: 22px;
+  color: white;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  background: #2ecc71;
+  border: 0;
+  border-bottom: 2px solid #28be68;
+  cursor: pointer;
+  -webkit-box-shadow: inset 0 -2px #28be68;
+  box-shadow: inset 0 -2px #28be68;
+}
+
+button a:hover{
+  color: white;
+  text-decoration: none;
+}
+button a:visited{
+  color: white;
+  text-decoration: none;
+}
+
+
+.well-background{
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: inset 0 -2px #28be68;
+  border: 2px solid #28be68;
+  padding: 1em;
+  width: auto;
+  height: auto;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+.education{
+  background: linear-gradient(rgba(46,204,113, 0.40),rgba(46,204,113, 0.40)),url("imgs/img-education.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+  color: white;
+}
+
+.experience{
+  background: linear-gradient(rgba(46,204,113, 0.45),rgba(46,204,113, 0.45)),url("imgs/img-experience.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  height: 250px;
+  color: white;
+}
+
+.skills{
+  background: linear-gradient(rgba(46,204,113, 0.45),rgba(46,204,113, 0.45)),url("imgs/img-skills.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  height: 250px;
+  color: white;
+}
+
+.projects{
+  background: linear-gradient(rgba(46,204,113, 0.45),rgba(46,204,113, 0.45)),url("imgs/img-projects.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  height: 250px;
+  color: white;
+}
+
+
+.contact{
+  background: linear-gradient(
+    rgba(46,204,113, 0.45),
+    rgba(46,204,113, 0.45)
+  ), url("imgs/img-mail.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  height: 250px;
+  color: white;
+}
+
+.letter{
+  background: linear-gradient(
+    rgba(46,204,113, 0.45),
+    rgba(46,204,113, 0.45)
+  ), url("imgs/img-letter.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  height: 450px;
+  color: white;
+}
+
+.analytics{
+  background: linear-gradient(
+    rgba(46,204,113, 0.45),
+    rgba(46,204,113, 0.45)
+  ), url("imgs/img-analytics.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  height: 250px;
+  color: white;
+}
+
+.web-dev{
+  background: linear-gradient(
+    rgba(46,204,113, 0.45),
+    rgba(46,204,113, 0.45)
+  ), url("imgs/img-development.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  height: 250px;
+  color: white;
+}
+
+.thanks{
+  background: linear-gradient(
+    rgba(46,204,113, 0.45),
+    rgba(46,204,113, 0.45)
+  ), url("imgs/img-thankyou.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  height: 350px;
+}
+
+.contact{
+  background: linear-gradient(
+    rgba(46,204,113, 0.45),
+    rgba(46,204,113, 0.45)
+  ), url("imgs/img-mail.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  height: 250px;
+  color: white;
+}
+
+.well-background{
+  background: linear-gradient(
+    rgba(46,204,113, 0.45),
+    rgba(46,204,113, 0.45)
+  );
+}
+
+.bg{
+  background:rgba(46,204,113,0.9);
+}
+
+.para{
+  line-height: 1.4em;
+  font-size: 1.6em;
+  color: white;
+}
+
+h6{
+  color: white;
+  padding: 3%;
+  line-height: 2.2em;
+  font-size: 3em;
+  font-family: 'El Messiri', sans-serif;
+}
